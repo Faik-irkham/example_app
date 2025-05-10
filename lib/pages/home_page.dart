@@ -36,6 +36,15 @@ class _HomePageState extends State<HomePage> {
               child: Column(
                 children: [
                   Text(
+                    'Anggota Kelompok',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  SizedBox(height: 10),
+                  Text(
                     '1. Faik Irkham',
                     style: TextStyle(
                       color: Colors.white,
